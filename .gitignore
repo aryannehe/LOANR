@@ -22,8 +22,12 @@ dist/
 build/
 
 # Generated data and model artifacts
+# Synthetic training data IS tracked (CSV/JSON/MD). Databases stay ignored.
 data/*
 !data/.gitkeep
+!data/*.csv
+!data/*.json
+!data/*.md
 models/*
 !models/.gitkeep
 
